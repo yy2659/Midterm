@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="text/javascript" src="js/code.js"></script>
+  <title>Yao Yao's Homepage</title>
+</head>
+
+<body>
+
+<header>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <h2><span class="text-danger">Y</span>ao <span class="text-primary">Y</span>ao</h2>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="https://www.google.com/">Blog</a></li>
+          <li><a href="https://www.google.com/">About</a></li>
+          <li><a href="https://www.google.com/">Contact</a></li>
+        </ul>
+    </div>
+  </nav>
+</header>
+
+<div class="container">
+
+  <div>
+    <h2>Introduction</h2>
+    <p>Teachers college, Columbia University. I study in Instructional Technology and Media program.</p>
+  </div>
+  <div class="row" style="text-align: center">
+      <h2>Content 1 → Play back a video of Donald Trump Rally in Ft. Lauderdale, Florida on August 10, 2016</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/-45LVI03ctc" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <form method="POST" name="quiz1">
+    <div class="qheader">The first is to identify which president signed the agreement for the troop withdrawal from Iraq back in Dec 2008 and the system will give out correct answers</div>
+    <div class="qselections">
+    <input type="radio" value="a" name="question1">a) George W. Bush<br>
+    <input type="radio" value="b" name="question1">b) Dick Cheney<br>
+    <input type="radio" value="c" name="question1">c) Barack Obama<br>
+    <input type="radio" value="d" name="question1">d) George H. W. Bush<br>
+    </div>
+  </form>
+  <input type="button" value="Submit" name="B1" onclick="grade(1)">
+  <form method="POST" name="quiz2">
+    <div class="qheader">The second is to identify which sect of Islam is behind ISIS and the system will give out correct answers</div>
+    <div class="qselections">
+    <input type="radio" value="a" name="question2">a) Sunni<br>
+    <input type="radio" value="b" name="question2">b) Shiite<br>
+    <input type="radio" value="c" name="question2">c) Kurdish<br>
+    <input type="radio" value="d" name="question2">d) Yazidi<br>
+    </div>
+  </form>
+  <input type="button" value="Submit" name="B1" onclick="grade(2)">
+
+  <div class="row" style="text-align: center">
+      <h2>Content 2 → Play back a video of Hillary Clinton at a press conference on October 28, 2016</h2>
+      <iframe width="560" height="315" src="http://launch.newsinc.com/?type=VideoPlayer/Single&widgetId=1&trackingGroup=69016&playlistId=19132&siteSection=site_section_id&videoId=31580524" frameborder="no" scrolling="no" noresize marginwidth="0" marginheight="0"></iframe>
+  </div>
+  <form method="POST" name="quiz3">
+    <div class="qheader">Identify which of the following people are congressional Republicans to whom FBI Director James Comey sent emails to update probe on #EmailGate</div>
+    <div class="qselections">
+    <input type="radio" value="a" name="question3">a) Charles Grassley<br>
+    <input type="radio" value="b" name="question3">b) Robert Goodlatte<br>
+    <input type="radio" value="c" name="question3">c) Diane Feinstein<br>
+    <input type="radio" value="d" name="question3">d) George H. W. Bush<br>
+    </div>
+  </form>
+  <input type="button" value="Submit" name="B1" onclick="grade(3)">
+  <form method="POST" name="quiz4">
+    <div class="qheader">Identify which of the following people are congressional Democrats to whom FBI Director James Comey sent emails to update probe on #EmailGate</div>
+    <div class="qselections">
+    <input type="radio" value="a" name="question4">a) Jason Chaffetz<br>
+    <input type="radio" value="b" name="question4">b) Ron Johnson<br>
+    <input type="radio" value="c" name="question4">c) Barbara Mikulski<br>
+    <input type="radio" value="d" name="question4">d) Elijah Cummings<br>
+    </div>
+  </form>
+  <input type="button" value="Submit" name="B1" onclick="grade(4)">
+
+  <div class="row" style="text-align: center">
+      <h2><a target="_blank" href="http://bigstory.ap.org/article/62acdd911e4d44a5b855acf25122bd22/obama-administration-confirms-double-digit-premium-hikes">Content 3 → Show Associated Press’ reporting on October 24, 2016</a></h2></div>
+  <form method="POST" name="quiz5">
+    <div class="qheader">Identify which level of Obamacare plans will see average double-digit premiums hikes BEFORE taxpayer-provided subsidies (Dept. of Health & Human Services, 2016)? </div>
+    <div class="qselections">
+    <input type="radio" value="a" name="question5">a) Catastrophic<br>
+    <input type="radio" value="b" name="question5">b) Bronze<br>
+    <input type="radio" value="c" name="question5">c) Silver<br>
+    <input type="radio" value="d" name="question5">d) Gold<br>
+    <input type="radio" value="e" name="question5">e) Platinum<br>
+    </div>
+  </form>
+  <input type="button" value="Submit" name="B1" onclick="grade(5)">
+  <form method="POST" name="quiz6">
+    <div class="qheader">Identify which of the following groups of people won’t be significantly affected by the spike in premiums?</div>
+    <div class="qselections">
+    <input type="radio" value="a" name="question6">a) employer-provided plans that cover most workers and their families<br>
+    <input type="radio" value="b" name="question6">b) People making $25,000 a year<br>
+    <input type="radio" value="c" name="question6">c) People making $30,000 a year<br>
+    <input type="radio" value="d" name="question6">d) People making $40,000 a year<br>
+    </div>
+  </form>
+  <input type="button" value="Submit" name="B1" onclick="grade(6)">
+
+
+
+</div>
+</body>
+</html>

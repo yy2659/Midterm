@@ -1,0 +1,16 @@
+.icon {
+  max-width: 150px;
+  display: inline;
+}
+
+.form-group {
+  margin-top: 30px;
+}
+
+.qheader{
+font:bold 14px Arial;
+}
+
+.qselections{
+font:normal 13px Arial;
+}
