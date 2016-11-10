@@ -7,10 +7,18 @@
   margin-top: 30px;
 }
 
-.qheader{
-font:bold 14px Arial;
+.qheader {
+  font:bold 14px Arial;
 }
 
-.qselections{
-font:normal 13px Arial;
+.qselections {
+  font:normal 13px Arial;
+}
+
+.questions {
+  margin: 15px;
+}
+
+.extra-padding {
+  padding: 20px;
 }

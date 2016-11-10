@@ -1,23 +1,17 @@
-function print(message) {
-   alert(message);
-}
-
 var correctchoices=new Array()
-correctchoices[1]='a' //question 1 solution
-correctchoices[2]='a' //question 2 solution, and so on.
-correctchoices[3]='c'
-correctchoices[4]='c'
+correctchoices[1]='a'
+correctchoices[2]='a'
+correctchoices[3]='b'
+correctchoices[4]='d'
 correctchoices[5]='c'
-correctchoices[6]='c'
+correctchoices[6]='a'
 
-
-/////Don't edit beyond here//////////////////////////
 
 function grade(q){
   var thequestion=eval("document.quiz"+q+".question"+q);
   var answer;
   for (c=0;c<thequestion.length;c++){
-		if (thequestion[c].checked==true)
+		if (thequestion[c].checked===true)
 		  answer=thequestion[c].value
 	}
 
